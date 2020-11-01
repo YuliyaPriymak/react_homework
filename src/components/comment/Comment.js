@@ -1,20 +1,21 @@
 import React, {Component} from 'react';
 
-class User extends Component {
+class Comment extends Component {
   render() {
-    const {name, id, email, username} = this.props.user;
+    const {id, name, email, body} = this.props.comment;
     return (
       <div className="card">
         <div className="card-body">
           <h4 className="card-title">{id}. {name}</h4>
-          <h6 className="card-subtitle mb-2 text-muted">{username}</h6>
+          <h6 className="card-subtitle mb-2 text-muted">{email}</h6>
           <p className="card-text">
-            {email}
+            {body}
           </p>
         </div>
       </div>
+
     );
   }
 }
 
-export default User;
+export default Comment;

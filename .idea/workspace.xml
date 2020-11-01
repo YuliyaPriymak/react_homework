@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283cf519-9223-40f2-a842-3016c4c7ef0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/comment/Comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/comments-list/Comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/post/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/posts-list/Posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user-list/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CommentsApiService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/PostsApiService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/UserApiService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user-list/UserList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jdw2dmJHA5shGtwaib5b7HKaSi" />
@@ -71,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604147070857</updated>
       <workItem from="1604147074496" duration="1064000" />
-      <workItem from="1604177874478" duration="1763000" />
+      <workItem from="1604177874478" duration="2054000" />
+      <workItem from="1604269648142" duration="4150000" />
     </task>
     <task id="LOCAL-00001" summary="homework 1">
       <created>1604185738411</created>
@@ -87,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604185873889</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="homework 1!!!">
+      <created>1604186233477</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604186233477</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 1" />
+    <MESSAGE value="homework 1!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 1!!!" />
   </component>
 </project>
