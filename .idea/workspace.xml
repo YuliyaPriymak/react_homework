@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283cf519-9223-40f2-a842-3016c4c7ef0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/forms/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ControlledForm/ControlledForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UsersForControlledForm/UsersForControlledForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comment/Comment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comments-list/Comments.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/post/Post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/posts-list/Posts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user-list/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user-list/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/UserApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserApiService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/forms/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_work" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -86,7 +83,9 @@
       <workItem from="1604147074496" duration="1064000" />
       <workItem from="1604177874478" duration="2054000" />
       <workItem from="1604269648142" duration="4384000" />
-      <workItem from="1604493054853" duration="7700000" />
+      <workItem from="1604493054853" duration="8414000" />
+      <workItem from="1604667242339" duration="1787000" />
+      <workItem from="1604699732878" duration="14031000" />
     </task>
     <task id="LOCAL-00001" summary="homework 1">
       <created>1604185738411</created>
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604273880950</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add uncontrolled form">
+      <created>1604579812357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604579812358</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +145,7 @@
     <MESSAGE value="homework 1" />
     <MESSAGE value="homework 1!!!" />
     <MESSAGE value="homework 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 2" />
+    <MESSAGE value="add uncontrolled form" />
+    <option name="LAST_COMMIT_MESSAGE" value="add uncontrolled form" />
   </component>
 </project>
