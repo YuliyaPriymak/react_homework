@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="283cf519-9223-40f2-a842-3016c4c7ef0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Comments/Comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Posts/Posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserPosts/UserPosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ControlledForm/ControlledForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/forms/Form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user-list/Users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/User.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,14 +35,17 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="services" />
+        <entry key="$PROJECT_DIR$" value="form" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jdw2dmJHA5shGtwaib5b7HKaSi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -81,6 +99,11 @@
       <workItem from="1604493054853" duration="8414000" />
       <workItem from="1604667242339" duration="1787000" />
       <workItem from="1604699732878" duration="14876000" />
+      <workItem from="1605130464752" duration="1559000" />
+      <workItem from="1605132123219" duration="2080000" />
+      <workItem from="1605184316721" duration="8038000" />
+      <workItem from="1605443709891" duration="1211000" />
+      <workItem from="1605562299281" duration="6044000" />
     </task>
     <task id="LOCAL-00001" summary="homework 1">
       <created>1604185738411</created>
@@ -131,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604876896733</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add checkbox and controlled form">
+      <created>1605130645272</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605130645272</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +181,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="homework 1" />
     <MESSAGE value="homework 1!!!" />
     <MESSAGE value="homework 2" />

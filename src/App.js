@@ -1,62 +1,39 @@
 import React, {Component} from 'react';
-import ControlledForm from "./components/ControlledForm/ControlledForm";
-import {UserApiService} from "./services/UserApiService";
-import Form from "./components/forms/Form";
+import {NavLink} from "react-router-dom";
+import {Route, Switch} from 'react-router';
+import Users from "./components/Users/Users";
+import Posts from "./components/Posts/Posts";
+import Comments from "./components/Comments/Comments";
+import User from "./components/User/User";
 
 class App extends Component {
-  api = new UserApiService();
-  state = {
-    users: [],
-    checkedId: false,
-    checkedName: false,
-  };
-
-  async componentDidMount() {
-    this.setState({users: await this.api.getUsers()});
-    console.log(this.state.users);
-  }
-
-  handleCheckboxChangeId = () => {
-    this.setState({
-      checkedId: !this.state.checkedId,
-      checkedName: this.state.checkedId
-    })
-  };
-  handleCheckboxChangeName = () => {
-    this.setState({
-      checkedName: !this.state.checkedName,
-      checkedId: this.state.checkedName
-    })
-  };
-
   render() {
     return (
       <div className='container'>
-        <h3 className='text-center mb-2'><i>Homework 3 (forms)</i></h3>
-        <div className='d-flex mb-3'>
+        <ul className="nav nav-pills nav-justified mb-3 mt-3">
+          <li className="nav-item">
+            <NavLink exact to='/' className="nav-link">Home</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to='/users' className="nav-link">Users</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to='/posts' className="nav-link">Posts</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to='/comments' className="nav-link">Comments</NavLink>
+          </li>
+        </ul>
 
-          <div className="form-check border border-secondary">
-            <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
-                   checked={this.state.checkedId} onChange={this.handleCheckboxChangeId}/>
-              <label className="form-check-label" htmlFor="exampleRadios1">
-                Search by user id
-              </label>
-          </div>
-
-          <div className="form-check border border-secondary ml-2">
-            <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
-                   checked={this.state.checkedName} onChange={this.handleCheckboxChangeName}/>
-              <label className="form-check-label" htmlFor="exampleRadios1">
-                Search by user name
-              </label>
-          </div>
-          {/*<input type="checkbox" checked={this.state.checked} onChange={this.handleCheckboxChange}/>*/}
-          {/*<label htmlFor="">Search by user id</label>*/}
-         {/* <Form users={this.state.users}/>
-          <ControlledForm users={this.state.users}/>*/}
+        <div>
+          <Switch>
+            <Route exact path='/' render={()=> <h1>Home page</h1>} />
+            <Route exact path='/users' component={Users}/>
+            <Route  path='/users/:id' component={User}/>
+            <Route path='/posts' component={Posts}/>
+            <Route path='/comments' component={Comments}/>
+          </Switch>
         </div>
-        {this.state.checkedId && <Form users={this.state.users}/>}
-        {this.state.checkedName && <ControlledForm users={this.state.users}/>}
       </div>
     );
   }
